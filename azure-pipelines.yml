@@ -19,6 +19,6 @@ steps:
     ConnectionType: 'AzureRM'
     azureSubscription: 'Subscription 1(a1194440-6ef8-47b1-90fd-b05a6a61a482)'
     appType: 'webAppLinux'
-    WebAppName: 'mosprof'
+    WebAppName: '<app-name>'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'DOTNETCORE|6.0'
