@@ -22,3 +22,4 @@ steps:
     WebAppName: '<app-name>'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
     RuntimeStack: 'DOTNETCORE|6.0'
+- task: PublishBuildArtifacts@1
