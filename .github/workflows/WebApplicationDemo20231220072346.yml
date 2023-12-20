@@ -35,5 +35,9 @@ jobs:
     - name: Publish Artifacts
       uses: actions/upload-artifact@v1.0.0
       with:
+<<<<<<< HEAD
         name: dasapp
+=======
+        name: webapp
+>>>>>>> 35adce31ef77679a209054d47eba2f500d1b488e
         path: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
