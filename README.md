@@ -1,2 +1,4 @@
 # WebApplicationDemo
-First developed page 
+Modification of the Read Me
+
+Sylvain Pons 
